@@ -19,7 +19,9 @@ INDEX_FILE = BASE_DIR / "templates" / "index.html"
 STATIC_DIR = BASE_DIR / "static"
 
 HOST = "0.0.0.0"
-PORT = int(os.environ.get("PORT", 5000))MAX_WORKERS = 4
+PORT = int(os.environ.get("PORT", 5000))
+
+MAX_WORKERS = 4
 RDAP_TIMEOUT = 15
 WHOIS_TIMEOUT = 15
 RDAP_RETRIES = 3
